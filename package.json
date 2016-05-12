@@ -1,0 +1,38 @@
+{
+  "name": "grunt-azure-cspkg",
+  "description": "Generate azure cloud service package for deployment",
+  "version": "0.1.0",
+  "homepage": "https://github.com/danny8002/grunt-azure-cspkg",
+  "author": {
+    "name": "Zhiyuan Wang",
+    "email": "motif-linux@live.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danny8002/grunt-azure-cspkg.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danny8002/grunt-azure-cspkg/issues"
+  },
+  "licenses": [
+    {
+      "type": "WTFPL",
+      "url": "http://www.wtfpl.net"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
